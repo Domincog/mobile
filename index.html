@@ -1,31 +1,74 @@
-<Doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap-responsive.css">
- </head>
-<body>
-<script src="bootstrap.js"></script>
-<script src="jquery.min.js"></script>
-<div class="container">
-<h1 style="text-align:center;">This is a mobile friendly site!</h1>
-<p>It will ajust itself to your divice.</p>
-<br>
-<video width="400" controls>
-  <source src="https://youtu.be/YE7VzlLtp-4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-<br>
-<button type="button" class="btn btn-primary">This is a film called Big Buck Bunney</button>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div>
-</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+[class*="col-"] {
 
+}
+.col-1 {width: 100%;}
+.col-2 {width: 90%;}
+.col-3 {width: 80%;}
+.col-4 {width: 70%;}
+.col-5 {width: 60%;}
+.col-6 {width: 50%;}
+.col-7 {width: 40%;}
+.col-8 {width: 30%;}
+.col-9 {width: 20%;}
+.col-10 {width: 15%;}
+.col-11 {width: 10%;}
+.col-12 {width: 5%;}
+*{
+	box-sizing:border-box;
+}
+.title{
+	border:1px solid green;
+	background-color:#9933cc;
+	padding:10px;
+}
+.sidething{
+	border:none;
+	float:left;
+	padding:10px;
+	
+}
+.sidething ul{
+	list-style-type:none;
+}
+.number{
+	float:left;
+	border:none;
+	padding:20px;
+}
+.sidething li{
+	background-color:#33b5e5;
+	color:#f2f2f2;
+	padding:8px;
+	margin-bottom:7px;
+	border-radius: 25px;
+	cursor:default;
+	
+}
+.sidething li:hover{
+	background-color:#0099cc;
+}
+</style>
+</head>
+<body>
+<div class="title col-1">
+<h1>Hello</h1>
+</div>
+<br id="br">
+<div class="sidething col-9">
+<ul>
+<p>Clickable menu (not working)</p>
+<li>Link 1</li>
+<li>Link 2</li>
+<li>Link 3</li>
+</ul>
+</div>
+<div class="number col-3">
+<h2>This is another text box.</h2>
+<p>This is another side box, it will also get smaller as your screen size changes.</p>
+</div>
+</body>
+</html>
